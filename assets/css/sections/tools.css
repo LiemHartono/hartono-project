@@ -1,0 +1,50 @@
+/* Custom Grid untuk Skills dan Tools */
+.skills-grid, .design-editing-grid {
+  display: flex; flex-wrap: wrap; gap: 16px; justify-content: center; margin-bottom: 40px;
+}
+
+/* 1. Pengaturan Kotak Utama */
+.skill-item, .design-editing-item, .lang-item, .framework-item, .tool-item, .devtool-item, .design-item, .office-item {
+  width: calc((100% - (4 * 16px)) / 5); min-width: 120px; max-width: 160px;
+  text-align: center; padding: 14px; border-radius: 10px;
+  background: color-mix(in srgb, var(--accent-color), transparent 94%);
+  border: 1px solid color-mix(in srgb, var(--accent-color), transparent 85%);
+  transition: all 0.3s ease-in-out; /* DIUBAH: ease-in-out agar lebih smooth */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.03);
+  cursor: pointer; /* TAMBAHAN: Kursor berubah jadi jari saat disentuh */
+}
+
+/* 2. Efek Kotak Naik Saat di-Hover */
+.skill-item:hover, .design-editing-item:hover, .lang-item:hover, .framework-item:hover, .tool-item:hover, .devtool-item:hover, .design-item:hover, .office-item:hover {
+  transform: translateY(-8px); /* DIUBAH: Naik sedikit lebih tinggi (-8px) */
+  box-shadow: 0 12px 25px color-mix(in srgb, var(--accent-color), transparent 80%);
+}
+
+/* 3. Pengaturan Lingkaran Ikon */
+.skill-icon, .design-editing-icon {
+  width: 55px; height: 55px; margin: 0 auto 10px; display: flex; align-items: center; justify-content: center;
+  background: #fff; border-radius: 50%; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06); overflow: hidden; 
+  transition: transform 0.3s ease-in-out; /* DIUBAH: Dibuat sama smooth-nya dengan kotaknya */
+}
+
+/* 4. KUNCI PERBAIKAN: Ikon membesar saat KOTAKNYA di-hover (bukan cuma ikonnya) */
+.skill-item:hover .skill-icon, 
+.design-editing-item:hover .design-editing-icon, 
+.lang-item:hover .skill-icon, 
+.framework-item:hover .skill-icon, 
+.tool-item:hover .skill-icon, 
+.devtool-item:hover .skill-icon, 
+.design-item:hover .skill-icon, 
+.office-item:hover .skill-icon { 
+  transform: scale(1.1); 
+}
+
+/* 5. Gambar Ikon di Dalam Lingkaran */
+.skill-icon img, .design-editing-icon img, .lang-item img, .framework-item img, .tool-item img, .devtool-item img, .design-item img, .office-item img {
+  width: 60%; height: 60%; object-fit: contain;
+}
+
+/* 6. Pengaturan Teks */
+.skill-item h4, .design-editing-item h4, .framework-item h4, .tool-item h4 { font-size: 13px; font-weight: 600; margin-bottom: 4px; color: var(--heading-color); }
+.skill-item p, .design-editing-item p { font-size: 12px; color: color-mix(in srgb, var(--default-color), transparent 25%); margin: 0; }
+.lang-item span, .framework-item span, .tool-item span, .devtool-item span, .design-item span, .office-item span { font-size: 0.875rem; font-weight: 600; color: #495057; }

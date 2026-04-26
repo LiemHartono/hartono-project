@@ -1,0 +1,45 @@
+/* Portfolio Filters */
+.portfolio .portfolio-filters { display: flex; justify-content: center; flex-wrap: wrap; gap: 15px; padding: 0; margin: 0 0 40px; list-style: none; }
+.portfolio .portfolio-filters li { font-size: 15px; font-weight: 500; padding: 12px 25px; cursor: pointer; background: var(--surface-color); color: var(--default-color); border-radius: 30px; display: flex; align-items: center; gap: 8px; transition: all 0.3s ease; }
+.portfolio .portfolio-filters li i { font-size: 1.1em; transition: transform 0.3s ease; }
+.portfolio .portfolio-filters li:hover { color: var(--accent-color); transform: translateY(-2px); background: color-mix(in srgb, var(--accent-color), transparent 92%); }
+.portfolio .portfolio-filters li:hover i { transform: scale(1.1); }
+.portfolio .portfolio-filters li.filter-active { background: var(--accent-color); color: var(--contrast-color); }
+@media (max-width: 768px) { .portfolio .portfolio-filters { gap: 10px; } .portfolio .portfolio-filters li { padding: 8px 20px; font-size: 14px; } }
+
+/* Portfolio Grid & Cards (porto.css) */
+.portfolio-grid .portfolio-item { display: flex; }
+.portfolio-grid .portfolio-item > .card { flex: 1; }
+.portfolio-card { display: flex; flex-direction: column; height: 100%; border-radius: 14px; overflow: hidden; background: #fff; transition: transform .25s ease, box-shadow .25s ease; }
+.portfolio-card:hover { transform: translateY(-6px); box-shadow: 0 12px 25px rgba(0,0,0,.12); }
+.portfolio-card .card-body { padding: 1.25rem 1.25rem 1.5rem; display: flex; flex-direction: column; justify-content: space-between; }
+.portfolio-card .card-title { font-weight: 700; margin-bottom: .5rem; }
+.portfolio-card p { flex-grow: 1; }
+
+/* Area Gambar Swiper (16:9) */
+.portfolio-card .portfolio-image { position: relative; width: 100%; padding-top: 56.25%; overflow: hidden; }
+.portfolio-card .portfolio-image .swiper { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+.portfolio-card .portfolio-image .swiper-wrapper, .portfolio-card .portfolio-image .swiper-slide { height: 100%; }
+.swiper-slide { display: flex; justify-content: center; align-items: center; }
+.swiper-slide img { width: auto; height: auto; max-width: 100%; display: block; margin: 0 auto; object-fit: contain; }
+.portfolio-card img { object-position: center top; }
+
+/* Badges */
+.tech-badges span, .badge-pub { display: inline-block; font-size: 12px; padding: .25rem .5rem; margin: .125rem .25rem .25rem 0; border-radius: 999px; font-weight: 600; }
+.tech-badges span { background: rgba(13,110,253,.08); color: #0d6efd; }
+.badge-pub { background: rgba(220,53,69,.08); color: #dc3545; }
+
+/* Swiper Fixes */
+.portfolio-swiper .swiper-button-prev, .portfolio-swiper .swiper-button-next { width: 34px; height: 34px; border-radius: 50%; background: rgba(0,0,0,.35); }
+.portfolio-swiper .swiper-button-prev:after, .portfolio-swiper .swiper-button-next:after { font-size: 16px; color: #fff; }
+.portfolio-swiper .swiper-pagination-bullet { opacity: .4; }
+.portfolio-swiper .swiper-pagination-bullet-active { opacity: 1; }
+
+/* Portfolio Details Modal (main.css) */
+.portfolio-details { --section-spacing: 2.5rem; }
+.portfolio-details .portfolio-details-media .main-image { margin-bottom: 1rem; border-radius: 20px; overflow: hidden; box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08); }
+.portfolio-details .portfolio-details-media .main-image .portfolio-details-slider .swiper-slide img { aspect-ratio: 3/2; object-fit: cover; width: 100%; }
+.portfolio-details .portfolio-details-content { padding: 0 0 0 2rem; height: 100%; display: flex; flex-direction: column; }
+.portfolio-details .portfolio-details-content .project-title { font-size: 2.2rem; margin-bottom: 1rem; font-weight: 700; line-height: 1.2; color: var(--heading-color); }
+.portfolio-details .portfolio-details-content .project-overview .lead { font-size: 1.1rem; line-height: 1.7; color: color-mix(in srgb, var(--default-color), transparent 15%); margin-bottom: 1.5rem; }
+@media (max-width: 991.98px) { .portfolio-details .portfolio-details-content { padding: 2rem 0 0 0; } }

@@ -1,0 +1,73 @@
+/* Header & Nav */
+.header { --background-color: rgba(255, 255, 255, 0); color: var(--default-color); background-color: var(--background-color); padding: 15px 0; transition: all 0.5s; z-index: 997; }
+.header .logo { line-height: 1; }
+.header .logo img { max-height: 32px; margin-right: 8px; }
+.header .logo h1 { font-size: 30px; margin: 0; font-weight: 700; color: var(--heading-color); }
+
+.mobile-nav-toggle { color: var(--nav-color); position: fixed; top: 20px; right: 20px; font-size: 32px; line-height: 0; cursor: pointer; display: block !important; z-index: 998; transition: 0.3s; }
+.mobile-nav-toggle:hover { color: var(--nav-hover-color); }
+.navmenu { position: fixed; top: 0; bottom: 0; right: -300px; z-index: 997; transition: 0.3s; width: 300px; overflow: hidden; }
+.navmenu .profile-img img { margin: 15px auto; display: block; width: 160px; border: 8px solid color-mix(in srgb, var(--contrast-color), transparent 85%); }
+.navmenu .logo { line-height: 1; margin-bottom: 15px; }
+.navmenu .logo img { max-height: 32px; margin-right: 8px; }
+.navmenu .logo h1 { font-size: 24px; margin: 0; font-weight: 700; color: var(--contrast-color); }
+.navmenu .social-links { margin: 0 0 20px 0; }
+.navmenu .social-links a { font-size: 16px; display: inline-flex; align-items: center; justify-content: center; padding: 0; background: color-mix(in srgb, var(--contrast-color), transparent 90%); color: var(--contrast-color); margin: 0 2px; border-radius: 50%; width: 40px; height: 40px; transition: 0.3s; }
+.navmenu .social-links a:hover { color: var(--contrast-color); background: var(--accent-color); }
+.navmenu ul { display: block; list-style: none; padding: 10px 0; margin: 0; overflow-y: auto; transition: 0.3s; z-index: 998; }
+.navmenu a, .navmenu a:focus { color: var(--nav-dropdown-color); padding: 10px 20px; font-family: var(--nav-font); font-size: 17px; font-weight: 500; display: flex; align-items: center; justify-content: space-between; white-space: nowrap; transition: 0.3s; }
+.navmenu a i, .navmenu a:focus i { font-size: 12px; line-height: 0; margin-left: 5px; width: 30px; height: 30px; display: flex; align-items: center; justify-content: center; border-radius: 50%; transition: 0.3s; background-color: color-mix(in srgb, var(--accent-color), transparent 90%); }
+.navmenu a i:hover, .navmenu a:focus i:hover { background-color: var(--accent-color); color: var(--contrast-color); }
+.navmenu a:hover, .navmenu .active, .navmenu .active:focus { color: var(--nav-dropdown-hover-color); }
+.navmenu .active i, .navmenu .active:focus i { background-color: var(--accent-color); color: var(--contrast-color); transform: rotate(180deg); }
+.navmenu .dropdown ul { position: static; display: none; z-index: 99; padding: 10px 0; margin: 10px 20px; box-shadow: none; transition: all 0.5s ease-in-out; }
+.navmenu .dropdown>.dropdown-active { display: block; background-color: var(--nav-dropdown-background-color); border: 1px solid color-mix(in srgb, var(--nav-dropdown-color), transparent 90%); }
+.mobile-nav-active { overflow: hidden; }
+.mobile-nav-active .mobile-nav-toggle { right: 310px; font-size: 36px; }
+.mobile-nav-active .navmenu { position: fixed; overflow: hidden; top: 0; bottom: 0; right: 0; background-color: var(--nav-mobile-background-color); transition: 0.3s; }
+
+/* Combined Footer (Main + Porto) */
+.footer { color: #3a3d45; background: linear-gradient(135deg, #eef3ff 0%, #ffffff 100%); font-size: 14px; padding: 40px 0; position: relative; border-top: 1px solid #dfe6f5; box-shadow: 0 -6px 25px rgba(0,0,0,0.05); }
+.footer h4 { color: #1a1d23; font-weight: 700; margin-bottom: 1px; }
+.footer p { color: #555d6b; margin-bottom: 0; }
+.footer .social-links { margin-top: 20px; }
+.footer .social-links a { display: flex; align-items: center; justify-content: center; width: 40px; height: 40px; border-radius: 50%; border: 1px solid color-mix(in srgb, var(--default-color), transparent 50%); font-size: 16px; color: color-mix(in srgb, var(--default-color), transparent 50%); margin: 0 5px; transition: 0.3s; }
+.footer .social-links a:hover { color: var(--accent-color); border-color: var(--accent-color); }
+.footer .credits { margin-top: 10px; font-size: 13px; text-align: center; }
+.footer-icon { font-size: 20px; color: #4b5af0; background: #e8edff; padding: 10px; border-radius: 50%; transition: .3s ease; }
+.footer-icon:hover { background: #4b5af0; color: #ffffff; transform: translateY(-4px); }
+.footer-line { width: 120px; margin: 1.3rem auto; border-top: 2px solid rgba(75,90,240,0.25); }
+
+/* Scroll Top */
+.scroll-top { position: fixed; visibility: hidden; opacity: 0; right: 15px; bottom: -15px; z-index: 99999; background-color: var(--accent-color); width: 44px; height: 44px; border-radius: 50px; transition: all 0.4s; }
+.scroll-top i { font-size: 24px; color: var(--contrast-color); line-height: 0; }
+.scroll-top:hover { background-color: color-mix(in srgb, var(--accent-color), transparent 20%); color: var(--contrast-color); }
+.scroll-top.active { visibility: visible; opacity: 1; bottom: 15px; }
+
+/* ==========================================
+   TOMBOL DARK MODE FLOATING (FIX ALIGNMENT & BUG)
+========================================== */
+.floating-theme-btn {
+  position: fixed;
+  top: 20px; /* Disamakan persis dengan top ikon garis tiga */
+  right: 65px; /* Jarak pas di sebelah kiri garis tiga */
+  z-index: 9998;
+  height: 32px; /* Disamakan dengan tinggi (font-size) garis tiga */
+  display: flex;
+  align-items: center; /* Memastikan ikon benar-benar di tengah (center) secara vertikal */
+  justify-content: center;
+  font-size: 24px; /* Ukuran proporsional */
+  color: var(--nav-color);
+  transition: all 0.3s ease;
+}
+
+.floating-theme-btn:hover {
+  color: var(--nav-hover-color);
+  transform: scale(1.1);
+}
+
+/* FIX BUG: Tombol ikut pindah ke kiri saat menu sidebar terbuka */
+.mobile-nav-active .floating-theme-btn {
+  right: 355px; /* Ikut pindah sejajar dengan ikon X */
+  color: #ffffff; /* Warnanya diubah jadi putih agar tetap terlihat jelas di atas background gelap */
+}

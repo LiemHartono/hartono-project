@@ -1,0 +1,74 @@
+body { color: var(--default-color); background-color: var(--background-color); font-family: var(--default-font); }
+a { color: var(--accent-color); text-decoration: none; transition: 0.3s; }
+a:hover { color: color-mix(in srgb, var(--accent-color), transparent 25%); text-decoration: none; }
+h1, h2, h3, h4, h5, h6 { color: var(--heading-color); font-family: var(--heading-font); }
+
+/* Utilities & Animations (Dari porto.css) */
+.hidden-tool, .hidden-section { display: none; }
+.hidden-tool.show, .hidden-section.show { display: block; animation: fadeIn 0.6s ease-in-out; }
+.btn-gradient { background: linear-gradient(135deg, #381fc5, #963ee8); border: none; color: #fff; padding: 0.6rem 1.5rem; border-radius: 50px; font-weight: 600; transition: transform 0.2s; }
+.btn-gradient:hover { transform: scale(1.05); }
+@keyframes fadeIn { from { opacity: 0; transform: translateY(-10px); } to { opacity: 1; transform: translateY(0); } }
+
+/* Global Sections & Titles */
+section, .section { 
+  color: var(--default-color); 
+  background-color: var(--background-color); 
+  padding: 80px 0; /* Saya ubah jadi 80px agar jarak antar section lebih lega */
+  overflow: clip; 
+  scroll-margin-top: 80px; /* SANGAT PENTING: Mencegah judul tertutup header saat menu navbar diklik */
+}
+
+.section-title { 
+  position: relative; 
+  margin-bottom: 50px; /* Tambahan jarak bawah agar tidak nempel dengan konten */
+}
+
+.section-title h2 { 
+  font-size: 36px; 
+  font-weight: 700; 
+  padding: 0; 
+  line-height: 1.2; /* KUNCI: line-height diubah dari 1px agar teks tidak gepeng */
+  margin: 0; 
+  letter-spacing: 0.5px; 
+  position: relative; 
+  color: var(--heading-color);
+}
+
+.section-title h2::after { 
+  content: ""; 
+  width: 120px; 
+  height: 2px; /* Garis agak ditebalkan jadi 2px */
+  display: inline-block; 
+  background: var(--accent-color); 
+  margin: 0 15px; 
+  vertical-align: middle; /* Biar garis sejajar di tengah teks */
+}
+
+.section-title p { 
+  color: color-mix(in srgb, var(--default-color), transparent 50%); 
+  margin: 10px 0 0 0; 
+  font-size: 16px; 
+  font-weight: 500; 
+  font-family: var(--heading-font); 
+}
+
+.section-title-custom { font-size: 2.2rem; font-weight: 700; color: #007bff; position: relative; display: inline-block; padding-bottom: 0.5rem; }
+.section-title-custom::after { content: ""; width: 60%; height: 3px; background-color: #007bff; position: absolute; bottom: 0; left: 50%; transform: translateX(-50%); border-radius: 2px; }
+
+/* Page Title & Breadcrumbs */
+.page-title { color: var(--default-color); background-color: var(--background-color); padding: 25px 0; position: relative; }
+.page-title h1 { font-size: 24px; font-weight: 700; }
+.page-title .breadcrumbs ol { display: flex; flex-wrap: wrap; list-style: none; padding: 0; margin: 0; font-size: 14px; font-weight: 400; }
+.page-title .breadcrumbs ol li+li { padding-left: 10px; }
+.page-title .breadcrumbs ol li+li::before { content: "/"; display: inline-block; padding-right: 10px; color: color-mix(in srgb, var(--default-color), transparent 70%); }
+
+/* PHP Email Form Messages */
+.php-email-form .error-message { display: none; background: #df1529; color: #ffffff; text-align: left; padding: 15px; margin-bottom: 24px; font-weight: 600; }
+.php-email-form .sent-message { display: none; color: #ffffff; background: #059652; text-align: center; padding: 15px; margin-bottom: 24px; font-weight: 600; }
+.php-email-form .loading { display: none; background: var(--surface-color); text-align: center; padding: 15px; margin-bottom: 24px; }
+.php-email-form .loading:before { content: ""; display: inline-block; border-radius: 50%; width: 24px; height: 24px; margin: 0 10px -6px 0; border: 3px solid var(--accent-color); border-top-color: var(--surface-color); animation: php-email-form-loading 1s linear infinite; }
+@keyframes php-email-form-loading { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
+
+/* AOS Fix Mobile */
+@media screen and (max-width: 768px) { [data-aos-delay] { transition-delay: 0 !important; } }

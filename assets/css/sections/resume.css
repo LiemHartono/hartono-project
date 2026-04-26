@@ -1,0 +1,26 @@
+/* Resume Header */
+.resume .section-header { margin-bottom: 2.5rem; }
+.resume .section-header h2 { font-size: 1.8rem; font-weight: 700; margin-bottom: 1rem; display: flex; align-items: center; gap: 0.75rem; }
+.resume .section-header h2 i { color: var(--accent-color); font-size: 1.5rem; }
+.resume .section-header .section-subtitle { color: color-mix(in srgb, var(--default-color), transparent 30%); font-size: 1rem; line-height: 1.6; }
+
+/* Experience & Org Cards (porto.css) */
+#experience .row > [class*="col-"], #organizations .row > [class*="col-"] { display: flex; }
+.exp-card, .org-card { width: 100%; border-radius: 14px; background: #fff; transition: all 0.3s ease; }
+.exp-card .card-body, .org-card .card-body { padding: 1.25rem 1.25rem; }
+.exp-logo, .org-logo { flex: 0 0 64px; width: 64px; height: 64px; border-radius: 12px; background: #f5f7fb; display: flex; align-items: center; justify-content: center; border: 1px solid #ecf0f6; overflow: hidden; margin-right: 1rem; }
+.exp-logo img, .org-logo img { max-width: 80%; max-height: 80%; object-fit: contain; }
+
+/* Education Timeline (porto.css) */
+.education-timeline { max-width: 1500px; margin: 0 auto; }
+.timeline-entry { display: flex; align-items: flex-start; gap: 1.5rem; margin-bottom: 3rem; }
+.institution-logo { width: 140px; height: 140px; object-fit: contain; border-radius: 50%; background: #fff; border: 2px solid #e8e8e8; padding: 0.5rem; flex-shrink: 0; }
+.timeline-card { background: #fff; border-radius: 1rem; box-shadow: 0 4px 18px rgba(0, 0, 0, 0.07); padding: 1.5rem 2rem; flex: 1; text-align: left; }
+.timeline-year { font-size: 0.95rem; font-weight: 700; color: #381fc5; margin-bottom: 0.25rem; }
+.timeline-degree { font-size: 1.2rem; font-weight: 600; color: #212529; margin-bottom: 0.15rem; }
+.timeline-institution { font-size: 1rem; color: #6c757d; }
+
+@media (max-width: 576px) {
+  .timeline-entry { flex-direction: column; align-items: center; text-align: center; }
+  .timeline-card { width: 100%; }
+}

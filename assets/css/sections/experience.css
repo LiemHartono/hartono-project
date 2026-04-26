@@ -1,0 +1,9 @@
+.exp-card { border-radius: 14px; background: #fff; height: 100%; transition: all 0.3s ease; }
+.exp-logo {
+  flex: 0 0 64px; width: 64px; height: 64px;
+  border-radius: 12px; background: #f5f7fb;
+  display: flex; align-items: center; justify-content: center;
+  border: 1px solid #ecf0f6; overflow: hidden;
+}
+.exp-logo img { max-width: 80%; max-height: 80%; object-fit: contain; }
+#experience .row > [class*="col-"] { display: flex; }

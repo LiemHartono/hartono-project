@@ -1,0 +1,132 @@
+@charset "UTF-8";
+/* Fonts */
+:root {
+  --default-font: "Roboto", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --heading-font: "Quicksand", sans-serif;
+  --nav-font: "Open Sans", sans-serif;
+  scroll-behavior: smooth;
+}
+
+/* Global Colors */
+:root {
+  --background-color: #ffffff;
+  --default-color: #314862;
+  --heading-color: #13447f;
+  --accent-color: #065cc2;
+  --surface-color: #ffffff;
+  --contrast-color: #ffffff;
+}
+
+/* Nav Menu Colors */
+:root {
+  --nav-color: #314862;
+  --nav-hover-color: #065cc2;
+  --nav-mobile-background-color: #11427d;
+  --nav-dropdown-background-color: #065cc2;
+  --nav-dropdown-color: #acc4e0;
+  --nav-dropdown-hover-color: #ffffff;
+}
+
+/* Color Presets */
+.light-background { --background-color: #f7faff; --surface-color: #ffffff; }
+.dark-background { --background-color: #065cc2; --default-color: #ffffff; --heading-color: #ffffff; --accent-color: #afcdf1; --surface-color: #2973cc; --contrast-color: #ffffff; }
+
+/* ==========================================
+   DARK MODE OVERRIDES
+========================================== */
+[data-theme="dark"] {
+  /* Background & Surface */
+  --background-color: #000000; /* Warna latar sangat gelap (hitam) */
+  --surface-color: #080f1b; /* Warna latar card/kotak */
+  
+  /* Text Colors */
+  --default-color: #94a3b8; /* Teks paragraf (abu-abu terang) */
+  --heading-color: #f8fafc; /* Teks judul (putih) */
+  
+  /* Accent & Contrast */
+  --accent-color: #60a5fa; /* Biru accent dibuat lebih terang agar kontras di gelap */
+  --contrast-color: #0f172a; /* Teks di dalam tombol accent */
+  
+  /* Navbar */
+  --nav-color: #e2e8f0;
+  --nav-hover-color: #60a5fa;
+  --nav-mobile-background-color: #1e293b;
+}
+
+/* Sedikit penyesuaian khusus elemen di dark mode */
+[data-theme="dark"] .skill-icon,
+[data-theme="dark"] .design-editing-icon {
+  background: #f8fafc; /* Memastikan background logo tetap putih/terang agar logo terlihat */
+}
+
+/* ==========================================
+   DARK MODE: CARDS & FOOTER FIX
+========================================== */
+
+/* 1. Ubah Background Kotak (Cards) menjadi Gelap */
+[data-theme="dark"] .timeline-card,
+[data-theme="dark"] .exp-card,
+[data-theme="dark"] .org-card,
+[data-theme="dark"] .portfolio-card,
+[data-theme="dark"] .social-card {
+  background-color: var(--surface-color) !important;
+  border: 1px solid rgba(255, 255, 255, 0.05); /* Garis batas halus */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4); /* Shadow disesuaikan untuk mode gelap */
+}
+
+/* 2. Perbaiki Warna Judul Utama yang Hardcoded di dalam Kotak */
+[data-theme="dark"] .timeline-degree,
+[data-theme="dark"] .portfolio-card .card-title,
+[data-theme="dark"] .exp-card h5,
+[data-theme="dark"] .org-card h5,
+[data-theme="dark"] .social-card h5 {
+  color: var(--heading-color) !important; /* Memaksa teks judul menjadi terang (putih) */
+}
+
+[data-theme="dark"] .timeline-year {
+  color: var(--accent-color) !important; /* Warna tahun disamakan dengan warna aksen biru */
+}
+
+/* 3. Perbaiki Footer (Menimpa Gradient Putih) */
+[data-theme="dark"] .footer {
+  background: var(--surface-color) !important; /* Menghapus gradient putih bawaan */
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+[data-theme="dark"] .footer h4 {
+  color: var(--heading-color) !important;
+}
+
+[data-theme="dark"] .footer p {
+  color: var(--default-color) !important;
+}
+
+/* 4. Logo Box & Icon Box */
+/* Dibuat tetap terang sedikit agar logo kampus / perusahaan tidak "mati" atau hilang */
+[data-theme="dark"] .institution-logo,
+[data-theme="dark"] .exp-logo,
+[data-theme="dark"] .org-logo,
+[data-theme="dark"] .social-icon {
+  background-color: #f8fafc !important;
+  border: none;
+}
+
+/* 5. Perbaiki Warna Teks Deskripsi (Paragraf) & Sub-judul di dalam Kotak */
+[data-theme="dark"] .timeline-card p,
+[data-theme="dark"] .exp-card p,
+[data-theme="dark"] .org-card p,
+[data-theme="dark"] .portfolio-card p,
+[data-theme="dark"] .social-card p,
+[data-theme="dark"] .timeline-institution,
+[data-theme="dark"] .text-muted,
+[data-theme="dark"] .exp-card span,
+[data-theme="dark"] .org-card span,
+[data-theme="dark"] .portfolio-card span {
+  color: var(--default-color) !important; /* Mengubah teks penjelasan menjadi abu-abu terang */
+}
+
+/* Memastikan tulisan tanggal/tahun kalau ada yang pakai div kecil ikut terang */
+[data-theme="dark"] .exp-card div,
+[data-theme="dark"] .org-card div {
+  color: var(--default-color);
+}
