@@ -62,6 +62,8 @@
       <div class="skills-grid">
         <div class="skill-item" data-aos="zoom-in"><div class="skill-icon"><img src="assets/img/logo/git.png" alt="Git"></div><h4>Git</h4></div>
         <div class="skill-item" data-aos="zoom-in"><div class="skill-icon"><img src="assets/img/logo/postman.png" alt="Postman"></div><h4>Postman</h4></div>
+        <div class="skill-item" data-aos="zoom-in"><div class="skill-icon"><img src="assets/img/logo/aws.png" alt="AWS"></div><h4>AWS</h4></div>
+        <div class="skill-item" data-aos="zoom-in"><div class="skill-icon"><img src="assets/img/logo/Cloudflare.png" alt="cloudflare"></div><h4>Cloudflare</h4></div>
       </div>
     </div>
   </section>
