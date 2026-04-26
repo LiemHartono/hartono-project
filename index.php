@@ -10,7 +10,7 @@
         include 'components/education.php';
         include 'components/experience.php';
         include 'components/portfolio.php';
-        include 'components/articles.php';
+        // include 'components/articles.php';
         include 'components/organizations.php';
         include 'components/contact.php';
     ?>
