@@ -1,3 +1,21 @@
+<section id="framework" class="section text-center">
+  <div class="container">
+    <h2 class="display-5 fw-bold text-gradient mb-4">Framework</h2>
+    <div class="skills-grid">
+      <div class="skill-item" data-aos="zoom-in" data-aos-delay="100"><div class="skill-icon"><img src="assets/img/logo/Laravel.png" alt="Laravel"></div><h4>Laravel</h4></div>
+      <div class="skill-item" data-aos="zoom-in" data-aos-delay="200"><div class="skill-icon"><img src="assets/img/logo/golang.png" alt="Golang"></div><h4>Golang</h4></div>
+      <div class="skill-item" data-aos="zoom-in" data-aos-delay="300"><div class="skill-icon"><img src="assets/img/logo/react.png" alt="React"></div><h4>React</h4></div>
+      <div class="skill-item" data-aos="zoom-in" data-aos-delay="400"><div class="skill-icon"><img src="assets/img/logo/next.png" alt="Next.js"></div><h4>Next.js</h4></div>
+      <div class="skill-item" data-aos="zoom-in" data-aos-delay="500"><div class="skill-icon"><img src="assets/img/logo/vue.png" alt="Vue.js"></div><h4>Vue.js</h4></div>
+      <div class="skill-item" data-aos="zoom-in" data-aos-delay="600"><div class="skill-icon"><img src="assets/img/logo/angular.png" alt="Angular"></div><h4>Angular</h4></div>
+      <div class="skill-item" data-aos="zoom-in" data-aos-delay="700"><div class="skill-icon"><img src="assets/img/logo/Bootstrap.png" alt="Bootstrap"></div><h4>Bootstrap</h4></div>
+      <div class="skill-item" data-aos="zoom-in" data-aos-delay="800"><div class="skill-icon"><img src="assets/img/logo/django.png" alt="Django"></div><h4>Django</h4></div>
+      <div class="skill-item" data-aos="zoom-in" data-aos-delay="900"><div class="skill-icon"><img src="assets/img/logo/Flask.png" alt="Flask"></div><h4>Flask</h4></div>
+      <div class="skill-item" data-aos="zoom-in" data-aos-delay="1000"><div class="skill-icon"><img src="assets/img/logo/CodeIgniter.png" alt="CodeIgniter"></div><h4>CodeIgniter</h4></div>
+    </div>
+  </div>
+</section>
+
 <section id="languages" class="section text-center">
   <div class="container">
     <h2 class="display-5 fw-bold text-gradient mb-4">Programming Languages</h2>
@@ -34,26 +52,20 @@
   </div>
 </section>
 
-<section id="framework" class="section text-center">
-  <div class="container">
-    <h2 class="display-5 fw-bold text-gradient mb-4">Framework</h2>
-    <div class="skills-grid">
-      <div class="skill-item" data-aos="zoom-in" data-aos-delay="100"><div class="skill-icon"><img src="assets/img/logo/Laravel.png" alt="Laravel"></div><h4>Laravel</h4></div>
-      <div class="skill-item" data-aos="zoom-in" data-aos-delay="200"><div class="skill-icon"><img src="assets/img/logo/golang.png" alt="Golang"></div><h4>Golang</h4></div>
-      <div class="skill-item" data-aos="zoom-in" data-aos-delay="300"><div class="skill-icon"><img src="assets/img/logo/react.png" alt="React"></div><h4>React</h4></div>
-      <div class="skill-item" data-aos="zoom-in" data-aos-delay="400"><div class="skill-icon"><img src="assets/img/logo/next.png" alt="Next.js"></div><h4>Next.js</h4></div>
-      <div class="skill-item" data-aos="zoom-in" data-aos-delay="500"><div class="skill-icon"><img src="assets/img/logo/vue.png" alt="Vue.js"></div><h4>Vue.js</h4></div>
-      <div class="skill-item" data-aos="zoom-in" data-aos-delay="600"><div class="skill-icon"><img src="assets/img/logo/angular.png" alt="Angular"></div><h4>Angular</h4></div>
-      <div class="skill-item" data-aos="zoom-in" data-aos-delay="700"><div class="skill-icon"><img src="assets/img/logo/Bootstrap.png" alt="Bootstrap"></div><h4>Bootstrap</h4></div>
-      <div class="skill-item" data-aos="zoom-in" data-aos-delay="800"><div class="skill-icon"><img src="assets/img/logo/django.png" alt="Django"></div><h4>Django</h4></div>
-      <div class="skill-item" data-aos="zoom-in" data-aos-delay="900"><div class="skill-icon"><img src="assets/img/logo/Flask.png" alt="Flask"></div><h4>Flask</h4></div>
-      <div class="skill-item" data-aos="zoom-in" data-aos-delay="1000"><div class="skill-icon"><img src="assets/img/logo/CodeIgniter.png" alt="CodeIgniter"></div><h4>CodeIgniter</h4></div>
-    </div>
-  </div>
-</section>
 
 <div id="additional-sections" class="hidden-section">
   
+
+  <section id="dev-tools" class="section text-center">
+    <div class="container">
+      <h2 class="display-5 fw-bold text-gradient mb-4">Development Tools</h2>
+      <div class="skills-grid">
+        <div class="skill-item" data-aos="zoom-in"><div class="skill-icon"><img src="assets/img/logo/git.png" alt="Git"></div><h4>Git</h4></div>
+        <div class="skill-item" data-aos="zoom-in"><div class="skill-icon"><img src="assets/img/logo/postman.png" alt="Postman"></div><h4>Postman</h4></div>
+      </div>
+    </div>
+  </section>
+
   <section id="data-science" class="section text-center">
     <div class="container">
       <h2 class="display-5 fw-bold text-gradient mb-4">Tools for Data Science & AI</h2>
@@ -75,15 +87,6 @@
     </div>
   </section>
 
-  <section id="dev-tools" class="section text-center">
-    <div class="container">
-      <h2 class="display-5 fw-bold text-gradient mb-4">Development Tools</h2>
-      <div class="skills-grid">
-        <div class="skill-item" data-aos="zoom-in"><div class="skill-icon"><img src="assets/img/logo/git.png" alt="Git"></div><h4>Git</h4></div>
-        <div class="skill-item" data-aos="zoom-in"><div class="skill-icon"><img src="assets/img/logo/postman.png" alt="Postman"></div><h4>Postman</h4></div>
-      </div>
-    </div>
-  </section>
 
   <section id="design-tools" class="section text-center">
     <div class="container">
