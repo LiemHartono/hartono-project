@@ -1,22 +1,29 @@
 // assets/js/porto.js
-// Toggle “Show All / Show Less” untuk semua section di bawah Framework
+
+// 1. Toggle “Show All / Show Less” untuk semua section di bawah Framework
 document.addEventListener('DOMContentLoaded', () => {
     const btn  = document.getElementById('toggle-sections-btn');
     const area = document.getElementById('additional-sections');
+    
     if (!btn || !area) return;
 
     btn.addEventListener('click', () => {
-        const collapsed = btn.getAttribute('data-collapsed') === 'true';
+        const isCollapsed = btn.getAttribute('data-collapsed') === 'true';
 
-        if (collapsed) {
-            // Tampilkan semua section
-            area.classList.remove('hidden-section');
+        if (isCollapsed) {
+            // Tampilkan section dengan menambah class .show (CSS Grid akan menangani transisinya)
             area.classList.add('show');
             btn.textContent = 'Show Less';
             btn.setAttribute('data-collapsed', 'false');
+            
+            // Refresh AOS agar animasi elemen di dalamnya muncul dengan smooth
+            setTimeout(() => {
+                if (typeof AOS !== 'undefined') {
+                    AOS.refresh();
+                }
+            }, 300);
         } else {
-            // Sembunyikan kembali
-            area.classList.add('hidden-section');
+            // Sembunyikan kembali hanya dengan menghapus class .show
             area.classList.remove('show');
             btn.textContent = 'Show All';
             btn.setAttribute('data-collapsed', 'true');
@@ -24,7 +31,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 });
 
-// (opsional) – toggle hidden-tool di Data Science jika kamu masih pakai
+// 2. (opsional) – toggle hidden-tool di Data Science
 document.addEventListener('DOMContentLoaded', () => {
     const btnTool = document.getElementById('show-all-btn');
     if (!btnTool) return;
@@ -38,7 +45,8 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 });
 
-    // Swiper Autoplay untuk semua kartu
+// 3. Swiper Autoplay untuk semua kartu
+document.addEventListener('DOMContentLoaded', () => {
     document.querySelectorAll('.portfolio-swiper').forEach(function (el) {
       new Swiper(el, {
         loop: true,
@@ -57,4 +65,4 @@ document.addEventListener('DOMContentLoaded', () => {
         }
       });
     });
-
+});
