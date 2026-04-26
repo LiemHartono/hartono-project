@@ -4,7 +4,7 @@
       <h2 class="display-5 fw-bold text-gradient">Education</h2>
     </div>
 
-    <div class="education-timeline" data-aos="fade-up" data-aos-delay="300">
+    <div class="education-timeline" data-aos="fade-up">
 
       <div class="timeline-entry">
         <img src="assets/img/logo/unikom.png" alt="UNIKOM" class="institution-logo">

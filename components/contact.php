@@ -5,7 +5,7 @@
       <p class="mb-0">Let’s Connect and Collaborate</p>
     </div>
 
-    <div class="row gy-4" data-aos="fade-up" data-aos-delay="150">
+    <div class="row gy-4" data-aos="fade-up">
 
       <div class="col-lg-4 col-md-6">
         <div class="card social-card h-100 shadow-sm border-0">
