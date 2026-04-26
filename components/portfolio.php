@@ -72,34 +72,29 @@
         </div>
       </div>
 
-            <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+      <div class="col-lg-4 col-md-6 portfolio-item filter-web">
         <div class="card h-100 shadow-sm border-0 portfolio-card">
           <div class="portfolio-image">
-            <div class="swiper portfolio-swiper" data-gallery="Kasir">
+            <div class="swiper portfolio-swiper" data-gallery="loan">
               <div class="swiper-wrapper">
-                <?php for($i=1; $i<=3; $i++): ?>
-                <div class="swiper-slide">
-                  <a href="assets/img/portfolio/Kasir-<?php echo $i; ?>.png" class="glightbox" data-gallery="Kasir">
-                    <img src="assets/img/portfolio/Kasir-<?php echo $i; ?>.png" alt="Kasir - <?php echo $i; ?>">
-                  </a>
-                </div>
+                <?php for($i=1; $i<=11; $i++): ?>
+                <div class="swiper-slide"><img src="assets/img/portfolio/PKP-<?php echo $i; ?>.png"></div>
                 <?php endfor; ?>
               </div>
-              <div class="swiper-pagination"></div>
-              <div class="swiper-button-prev"></div>
-              <div class="swiper-button-next"></div>
             </div>
           </div>
           <div class="card-body text-start">
-            <h5 class="card-title mb-2">Integrated Inventory & Point of Sale System (INVENKAS)</h5>
+            <h5 class="card-title mb-2">Loan Default Risk Prediction</h5>
             <p class="card-text small text-muted mb-3">
-              Dashboard of INVENKAS (Integrated Inventory & Point of Sale System) displaying sales history, transaction insights, 
-              location distribution, and daily performance metrics. The system is built using Golang for the backend and PostgreSQL as 
-              the database, ensuring high performance, scalability, and efficient data management for inventory and sales operations.
+              This system presents an intelligent predictive analytics platform designed to assess the risk of loan default based on 
+              historical financial and customer data. By leveraging machine learning techniques, the system analyzes key factors such as 
+              income level, credit history, loan amount, and repayment behavior to generate accurate risk classifications and support better 
+              financial decision-making.
             </p>
             <div class="tech-badges mb-3">
-              <span>Golang</span><span>PostgreSQL</span><span>Vue.js</span><span>REST API</span><span>Inventory System</span>
-              <span>Point of Sale (POS)</span><span>Dashboard Analytics</span><span>Responsive UI</span>
+              <span>Laravel</span><span>MySQL</span><span>React.js</span><span>Full-Stack Development</span><span>REST API</span>
+              <span>Machine Learning</span><span>Credit Risk Analysis</span><span>Loan Prediction</span><span>Data Classification</span>
+              <span>Predictive Analytics</span><span>Financial Data Analysis</span><span>Dashboard Analytics</span><span>Responsive UI</span>
             </div>
           </div>
         </div>
@@ -194,32 +189,14 @@
           <div class="card-body text-start">
             <h5 class="card-title mb-2">Time Series Temperature Forecasting</h5>
             <p class="card-text small text-muted mb-3">
-              Deep learning–based model built to predict temperature patterns using sequence-learning architectures.
+              This system presents a time series forecasting application designed to predict temperature trends based on historical 
+              data patterns. By analyzing temporal dependencies and sequential data, the system generates accurate temperature predictions 
+              to support environmental monitoring and data-driven decision-making.
             </p>
             <div class="tech-badges mb-3">
-              <span>Python</span><span>TensorFlow</span><span>LSTM</span>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-lg-4 col-md-6 portfolio-item filter-data">
-        <div class="card h-100 shadow-sm border-0 portfolio-card">
-          <div class="portfolio-image">
-            <div class="swiper portfolio-swiper" data-gallery="opencv">
-              <div class="swiper-wrapper">
-                <div class="swiper-slide"><img src="assets/img/portfolio/OPENCV-1.png"></div>
-                <div class="swiper-slide"><img src="assets/img/portfolio/OPENCV-2.png"></div>
-              </div>
-            </div>
-          </div>
-          <div class="card-body text-start">
-            <h5 class="card-title mb-2">Automatic Black-and-White Photo Colorization</h5>
-            <p class="card-text small text-muted mb-3">
-              Image colorization system using OpenCV and deep learning–based models to predict natural tones.
-            </p>
-            <div class="tech-badges mb-3">
-              <span>Python</span><span>OpenCV</span><span>Deep Learning</span>
+              <span>Golang</span><span>MySQL</span><span>React.js</span><span>Full-Stack Development</span><span>REST API</span>
+              <span>Machine Learning</span><span>Deep Learning</span><span>TensorFlow</span><span>Time Series Forecasting</span>
+              <span>Temperature Prediction</span><span>Data Visualization</span><span>Predictive Analytics</span><span>Responsive UI</span>
             </div>
           </div>
         </div>
@@ -228,25 +205,36 @@
       <div class="col-lg-4 col-md-6 portfolio-item filter-web">
         <div class="card h-100 shadow-sm border-0 portfolio-card">
           <div class="portfolio-image">
-            <div class="swiper portfolio-swiper" data-gallery="loan">
+            <div class="swiper portfolio-swiper" data-gallery="Kasir">
               <div class="swiper-wrapper">
-                <?php for($i=1; $i<=11; $i++): ?>
-                <div class="swiper-slide"><img src="assets/img/portfolio/PKP-<?php echo $i; ?>.png"></div>
+                <?php for($i=1; $i<=3; $i++): ?>
+                <div class="swiper-slide">
+                  <a href="assets/img/portfolio/Kasir-<?php echo $i; ?>.png" class="glightbox" data-gallery="Kasir">
+                    <img src="assets/img/portfolio/Kasir-<?php echo $i; ?>.png" alt="Kasir - <?php echo $i; ?>">
+                  </a>
+                </div>
                 <?php endfor; ?>
               </div>
+              <div class="swiper-pagination"></div>
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-button-next"></div>
             </div>
           </div>
           <div class="card-body text-start">
-            <h5 class="card-title mb-2">Loan Default Risk Prediction</h5>
+            <h5 class="card-title mb-2">Integrated Inventory & Point of Sale System (INVENKAS)</h5>
             <p class="card-text small text-muted mb-3">
-              Ensemble learning techniques to classify whether applicants are likely to repay their loans.
+              Dashboard of INVENKAS (Integrated Inventory & Point of Sale System) displaying sales history, transaction insights, 
+              location distribution, and daily performance metrics. The system is built using Golang for the backend and PostgreSQL as 
+              the database, ensuring high performance, scalability, and efficient data management for inventory and sales operations.
             </p>
             <div class="tech-badges mb-3">
-              <span>Python</span><span>scikit-learn</span><span>Ensemble Learning</span>
+              <span>Golang</span><span>PostgreSQL</span><span>Vue.js</span><span>REST API</span><span>Inventory System</span>
+              <span>Point of Sale (POS)</span><span>Dashboard Analytics</span><span>Responsive UI</span>
             </div>
           </div>
         </div>
       </div>
 
-    </div></div>
+    </div>
+  </div>
 </section>
