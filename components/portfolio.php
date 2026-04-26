@@ -10,12 +10,12 @@
       <div class="col-lg-4 col-md-6 portfolio-item filter-web">
         <div class="card h-100 shadow-sm border-0 portfolio-card">
           <div class="portfolio-image">
-            <div class="swiper portfolio-swiper" data-gallery="chatbot">
+            <div class="swiper portfolio-swiper" data-gallery="smartrider">
               <div class="swiper-wrapper">
                 <?php for($i=1; $i<=3; $i++): ?>
                 <div class="swiper-slide">
-                  <a href="assets/img/portfolio/chatbot-<?php echo $i; ?>.png" class="glightbox" data-gallery="chatbot">
-                    <img src="assets/img/portfolio/chatbot-<?php echo $i; ?>.png" alt="chatbot - <?php echo $i; ?>">
+                  <a href="assets/img/portfolio/smartrider-<?php echo $i; ?>.png" class="glightbox" data-gallery="smartrider">
+                    <img src="assets/img/portfolio/smartrider-<?php echo $i; ?>.png" alt="smartrider - <?php echo $i; ?>">
                   </a>
                 </div>
                 <?php endfor; ?>
@@ -26,15 +26,17 @@
             </div>
           </div>
           <div class="card-body text-start">
-            <h5 class="card-title mb-2">Integrated Inventory & Point of Sale System (INVENKAS)</h5>
+            <h5 class="card-title mb-2">Smart-Ride Ledger: AI-Integrated Motorcycle Buy-Sell Management System for Market Price 
+              Valuation and Stock Trend Prediction </h5>
             <p class="card-text small text-muted mb-3">
-              Dashboard of INVENKAS (Integrated Inventory & Point of Sale System) displaying sales history, transaction insights, 
-              location distribution, and daily performance metrics. The system is built using Golang for the backend and PostgreSQL as 
-              the database, ensuring high performance, scalability, and efficient data management for inventory and sales operations.
+              Smart-Ride Ledger is an AI-powered motorcycle buy-sell management system featuring inventory tracking, sales analytics, 
+              and market trend prediction. Built with Laravel, MySQL, and Bootstrap, it delivers a responsive full-stack solution for 
+              data-driven business insights.
             </p>
             <div class="tech-badges mb-3">
-              <span>Golang</span><span>PostgreSQL</span><span>Vue.js</span><span>REST API</span><span>Inventory System</span>
-              <span>Point of Sale (POS)</span><span>Dashboard Analytics</span><span>Responsive UI</span>
+              <span>Laravel</span><span>MySQL</span><span>Bootstrap</span><span>Full-Stack Development</span><span>REST API</span>
+              <span>AI Integration</span><span>Market Price Valuation</span><span>Stock Trend Prediction</span><span>Inventory Management</span>
+              <span>Sales Management</span><span>Dashboard Analytics</span><span>Responsive UI</span>
             </div>
           </div>
         </div>
