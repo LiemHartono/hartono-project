@@ -126,10 +126,15 @@
           <div class="card-body text-start">
             <h5 class="card-title mb-2">AI-Powered Room Booking Chatbot</h5>
             <p class="card-text small text-muted mb-3">
-              A mobile-friendly hotel virtual assistant that helps guests book rooms and find directions instantly.
+              The system is developed using Golang as the backend for high-performance API services, React for building an interactive 
+              and responsive user interface, and MySQL as the database for efficient data management. Additionally, Python-based 
+              Machine Learning and Deep Learning models are integrated to enhance chatbot intelligence, enabling contextual 
+              understanding, intent recognition, and smart booking recommendations.
             </p>
             <div class="tech-badges mb-3">
-              <span>Python</span><span>Chatbot</span><span>AI Assistant</span><span>Responsive UI</span>
+              <span>Golang</span><span>MySQL</span><span>React.js</span><span>Full-Stack Development</span><span>REST API</span>
+              <span>AI Chatbot</span><span>Machine Learning</span><span>Deep Learning</span><span>Natural Language Processing</span>
+              <span>Room Booking System</span><span>Real-time Dashboard</span><span>Responsive UI</span>
             </div>
           </div>
         </div>
@@ -156,10 +161,15 @@
           <div class="card-body text-start">
             <h5 class="card-title mb-2">Multivariate Time Series Weather Prediction</h5>
             <p class="card-text small text-muted mb-3">
-              Forecasting model designed to predict weather conditions using multiple environmental variables and LSTM.
+              This system presents a multivariate time series forecasting platform designed to predict weather conditions based on 
+              historical and real-time environmental data. By leveraging multiple variables such as temperature, humidity, wind speed, 
+              and atmospheric pressure, the system generates accurate predictions to support data-driven decision-making and environmental 
+              analysis.
             </p>
             <div class="tech-badges mb-3">
-              <span>Python</span><span>TensorFlow</span><span>LSTM</span><span>Time Series</span>
+              <span>Golang</span><span>PostgreSQL</span><span>Next.js</span><span>Full-Stack Development</span><span>REST API</span>
+              <span>Machine Learning</span><span>Deep Learning</span><span>TensorFlow</span><span>Time Series Forecasting</span>
+              <span>Multivariate Analysis</span><span>Weather Prediction</span><span>Data Visualization</span><span>Responsive UI</span>
             </div>
           </div>
         </div>
