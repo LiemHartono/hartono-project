@@ -58,7 +58,7 @@
 
   <section id="dev-tools" class="section text-center">
     <div class="container">
-      <h2 class="display-5 fw-bold text-gradient mb-4">Development Tools</h2>
+      <h2 class="display-5 fw-bold text-gradient mb-4">Deveployment Tools</h2>
       <div class="skills-grid">
         <div class="skill-item" data-aos="zoom-in"><div class="skill-icon"><img src="assets/img/logo/git.png" alt="Git"></div><h4>Git</h4></div>
         <div class="skill-item" data-aos="zoom-in"><div class="skill-icon"><img src="assets/img/logo/postman.png" alt="Postman"></div><h4>Postman</h4></div>
