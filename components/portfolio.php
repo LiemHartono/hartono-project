@@ -90,7 +90,7 @@
             </div>
           </div>
           <div class="card-body text-start">
-            <h5 class="card-title mb-2">Loan Default Risk Prediction</h5>
+            <h5 class="card-title mb-2">RiskLens AI: Intelligent Credit Risk Prediction Platform</h5>
             <p class="card-text small text-muted mb-3">
               This system presents an intelligent predictive analytics platform designed to assess the risk of loan default based on 
               historical financial and customer data. By leveraging machine learning techniques, the system analyzes key factors such as 
@@ -125,7 +125,7 @@
             </div>
           </div>
           <div class="card-body text-start">
-            <h5 class="card-title mb-2">AI-Powered Room Booking Chatbot</h5>
+            <h5 class="card-title mb-2">RoomGenie: AI-Powered Smart Booking Assistant</h5>
             <p class="card-text small text-muted mb-3">
               The system is developed using Golang as the backend for high-performance API services, React for building an interactive 
               and responsive user interface, and MySQL as the database for efficient data management. Additionally, Python-based 
@@ -160,7 +160,7 @@
             </div>
           </div>
           <div class="card-body text-start">
-            <h5 class="card-title mb-2">Multivariate Time Series Weather Prediction</h5>
+            <h5 class="card-title mb-2">WeatherMind AI: Multivariate Time Series Forecasting Platform</h5>
             <p class="card-text small text-muted mb-3">
               This system presents a multivariate time series forecasting platform designed to predict weather conditions based on 
               historical and real-time environmental data. By leveraging multiple variables such as temperature, humidity, wind speed, 
@@ -193,7 +193,7 @@
             </div>
           </div>
           <div class="card-body text-start">
-            <h5 class="card-title mb-2">Time Series Temperature Forecasting</h5>
+            <h5 class="card-title mb-2">TempPredict AI: Time Series Temperature Forecasting System</h5>
             <p class="card-text small text-muted mb-3">
               This system presents a time series forecasting application designed to predict temperature trends based on historical 
               data patterns. By analyzing temporal dependencies and sequential data, the system generates accurate temperature predictions 
