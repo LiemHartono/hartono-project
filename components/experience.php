@@ -82,7 +82,7 @@
             </div>
             <div class="text-start">
               <h5 class="mb-1">PT Niaga Garam Cermelang</h5>
-              <div class="small text-muted mb-2">Software Engginer · 2024</div>
+              <div class="small text-muted mb-2">Software Engineer · 2024</div>
               <p class="mb-0 small">
                 As a Software Engineer, I specialize in designing and developing high-performance web applications utilizing the 
                 Next.js framework. I focus on implementing advanced rendering strategies, including Server-Side Rendering (SSR) 
