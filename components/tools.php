@@ -53,8 +53,8 @@
 </section>
 
 
-<div id="additional-sections" class="hidden-section">
-  
+<div id="additional-sections">
+  <div class="inner-wrapper">
 
   <section id="dev-tools" class="section text-center">
     <div class="container">
@@ -119,10 +119,12 @@
     </div>
   </section>
 
+  </div>
+
 </div>
 
 <div class="text-center mt-5 mb-5">
   <button class="btn btn-gradient" id="toggle-sections-btn" data-collapsed="true">
     Show All
   </button>
-</div>  
+</div>
