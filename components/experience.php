@@ -17,10 +17,13 @@
               <h5 class="mb-1">Limtech Smart Solutions</h5>
               <div class="small text-muted mb-2">Fullstack Developer</div>
               <p class="mb-0 small">
-                Architected and developed end-to-end web applications using Python, Golang, and React, leveraging AWS 
-                infrastructure to ensure high availability and scalable system performance. Specialized in integrating 
-                AI-driven features and machine learning models into production environments to automate data processing 
-                and enhance intelligent system capabilities while leading the full software development lifecycle.
+                As a Fullstack Developer, I architected and developed end-to-end web applications using Python, Golang, and 
+                React, leveraging AWS infrastructure and Cloudflare to ensure robust security, high availability, and scalable 
+                performance. I specialized in integrating AI-driven features and machine learning models into production 
+                environments to automate data processing and enhance intelligent system capabilities. Beyond leading the full 
+                software development lifecycle, I focused on optimizing edge performance and implementing advanced security 
+                measures to protect against modern cyber threats. My approach bridges the gap between sophisticated cloud 
+                architecture and intelligent, user-centric software solutions.
               </p>
             </div>
           </div>
