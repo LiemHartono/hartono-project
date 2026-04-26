@@ -12,7 +12,7 @@
           <div class="portfolio-image">
             <div class="swiper portfolio-swiper" data-gallery="smartrider">
               <div class="swiper-wrapper">
-                <?php for($i=1; $i<=3; $i++): ?>
+                <?php for($i=1; $i<=2; $i++): ?>
                 <div class="swiper-slide">
                   <a href="assets/img/portfolio/smartrider-<?php echo $i; ?>.png" class="glightbox" data-gallery="smartrider">
                     <img src="assets/img/portfolio/smartrider-<?php echo $i; ?>.png" alt="smartrider - <?php echo $i; ?>">
@@ -47,7 +47,7 @@
           <div class="portfolio-image">
             <div class="swiper portfolio-swiper" data-gallery="tkmh">
               <div class="swiper-wrapper">
-                <?php for($i=1; $i<=12; $i++): ?>
+                <?php for($i=1; $i<=4; $i++): ?>
                 <div class="swiper-slide">
                   <a href="assets/img/portfolio/tk-marhamah-<?php echo $i; ?>.jpg" class="glightbox" data-gallery="tkmh">
                     <img src="assets/img/portfolio/tk-marhamah-<?php echo $i; ?>.jpg" alt="TK Marhamah Hasanah 2 - <?php echo $i; ?>">
@@ -61,12 +61,18 @@
             </div>
           </div>
           <div class="card-body text-start">
-            <h5 class="card-title mb-2">TK Marhamah Hasanah 2 — PPDB, Asesmen & DDTK</h5>
+            <h5 class="card-title mb-2">Information System for Student Admissions, Child Development Assessment, and 
+              Early Detection of Growth and Development at TK XYZ</h5>
             <p class="card-text small text-muted mb-3">
-              An integrated student admission and child development assessment system equipped with early growth-delay detection using a Random Forest model.
+              This system is an integrated information platform designed to manage student admissions, monitor child development, 
+              and support early detection of growth and developmental delays in early childhood education. It streamlines 
+              administrative processes—from registration and document management to payment tracking, while also enabling 
+              structured assessment of children’s cognitive, motoric, and social development.
             </p>
             <div class="tech-badges mb-3">
-              <span>Laravel</span><span>MySQL</span><span>Machine Learning</span><span>Random Forest</span><span>Python</span>
+              <span>Laravel</span><span>MySQL</span><span>React.js</span><span>Full-Stack Development</span><span>REST API</span>
+              <span>Machine Learning</span><span>Student Admissions System</span><span>Child Development Assessment</span>
+              <span>Early Detection System</span><span>Data Analysis</span><span>Dashboard Analytics</span><span>Responsive UI</span>
             </div>
           </div>
         </div>
@@ -77,7 +83,7 @@
           <div class="portfolio-image">
             <div class="swiper portfolio-swiper" data-gallery="loan">
               <div class="swiper-wrapper">
-                <?php for($i=1; $i<=11; $i++): ?>
+                <?php for($i=1; $i<=2; $i++): ?>
                 <div class="swiper-slide"><img src="assets/img/portfolio/PKP-<?php echo $i; ?>.png"></div>
                 <?php endfor; ?>
               </div>
@@ -105,7 +111,7 @@
           <div class="portfolio-image">
             <div class="swiper portfolio-swiper" data-gallery="chatbot">
               <div class="swiper-wrapper">
-                <?php for($i=1; $i<=3; $i++): ?>
+                <?php for($i=1; $i<=2; $i++): ?>
                 <div class="swiper-slide">
                   <a href="assets/img/portfolio/chatbot-<?php echo $i; ?>.png" class="glightbox" data-gallery="chatbot">
                     <img src="assets/img/portfolio/chatbot-<?php echo $i; ?>.png" alt="chatbot - <?php echo $i; ?>">
@@ -140,7 +146,7 @@
           <div class="portfolio-image">
             <div class="swiper portfolio-swiper" data-gallery="weather">
               <div class="swiper-wrapper">
-                <?php for($i=1; $i<=8; $i++): ?>
+                <?php for($i=1; $i<=3; $i++): ?>
                 <div class="swiper-slide">
                   <a href="assets/img/portfolio/PeramalanCuaca-<?php echo $i; ?>.png" class="glightbox" data-gallery="weather">
                     <img src="assets/img/portfolio/PeramalanCuaca-<?php echo $i; ?>.png" alt="Weather - <?php echo $i; ?>">
@@ -175,7 +181,7 @@
           <div class="portfolio-image">
             <div class="swiper portfolio-swiper" data-gallery="temp">
               <div class="swiper-wrapper">
-                <?php for($i=1; $i<=4; $i++): ?>
+                <?php for($i=1; $i<=3; $i++): ?>
                 <div class="swiper-slide">
                   <a href="assets/img/portfolio/PeramalanSuhu-<?php echo $i; ?>.png" class="glightbox" data-gallery="temp">
                     <img src="assets/img/portfolio/PeramalanSuhu-<?php echo $i; ?>.png" alt="Temp - <?php echo $i; ?>">
@@ -207,7 +213,7 @@
           <div class="portfolio-image">
             <div class="swiper portfolio-swiper" data-gallery="Kasir">
               <div class="swiper-wrapper">
-                <?php for($i=1; $i<=3; $i++): ?>
+                <?php for($i=1; $i<=2; $i++): ?>
                 <div class="swiper-slide">
                   <a href="assets/img/portfolio/Kasir-<?php echo $i; ?>.png" class="glightbox" data-gallery="Kasir">
                     <img src="assets/img/portfolio/Kasir-<?php echo $i; ?>.png" alt="Kasir - <?php echo $i; ?>">
@@ -223,9 +229,9 @@
           <div class="card-body text-start">
             <h5 class="card-title mb-2">Integrated Inventory & Point of Sale System (INVENKAS)</h5>
             <p class="card-text small text-muted mb-3">
-              Dashboard of INVENKAS (Integrated Inventory & Point of Sale System) displaying sales history, transaction insights, 
-              location distribution, and daily performance metrics. The system is built using Golang for the backend and PostgreSQL as 
-              the database, ensuring high performance, scalability, and efficient data management for inventory and sales operations.
+              This system is an integrated platform designed to manage inventory and sales transactions in a unified and efficient way. 
+              It provides real-time monitoring of stock levels, transaction history, and sales performance, enabling businesses to 
+              streamline operations and improve decision-making.
             </p>
             <div class="tech-badges mb-3">
               <span>Golang</span><span>PostgreSQL</span><span>Vue.js</span><span>REST API</span><span>Inventory System</span>
