@@ -3,16 +3,16 @@
 
 <main class="main">
     
-    <?php 
-        include 'components/hero.php'; 
-        include 'components/about.php'; 
-        include 'components/tools.php';
-        include 'components/education.php';
-        include 'components/experience.php';
-        include 'components/portfolio.php';
-        // include 'components/articles.php';
-        include 'components/organizations.php';
-        include 'components/contact.php';
+    <?php
+    include 'components/hero.php';
+    include 'components/about.php';
+    include 'components/tools.php';
+    include 'components/portfolio.php';
+    include 'components/experience.php';
+    include 'components/education.php';
+    // include 'components/articles.php';
+    include 'components/organizations.php';
+    include 'components/contact.php';
     ?>
 
     </main>
