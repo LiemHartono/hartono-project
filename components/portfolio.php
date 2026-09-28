@@ -7,12 +7,50 @@
 
     <div class="row gy-4 portfolio-grid" data-aos="fade-up" data-aos-delay="200">
 
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+        <div class="card h-100 shadow-sm border-0 portfolio-card">
+          <div class="portfolio-image">
+            <div class="swiper portfolio-swiper" data-gallery="ESG">
+              <div class="swiper-wrapper">
+                <?php for ($i = 1; $i <= 2; $i++): ?>
+                <div class="swiper-slide">
+                  <a href="assets/img/portfolio/ESG-<?php echo $i; ?>.png" class="glightbox" data-gallery="smartrider">
+                    <img src="assets/img/portfolio/ESG-<?php echo $i; ?>.png" alt="ESG - <?php echo $i; ?>">
+                  </a>
+                </div>
+                <?php endfor; ?>
+              </div>
+              <div class="swiper-pagination"></div>
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-button-next"></div>
+            </div>
+          </div>
+          <div class="card-body text-start">
+            <h5 class="card-title mb-2">ESG & TJSL Sustainability Management Platform — PT Pos Indonesia</h5>
+            <p class="card-text small text-muted mb-3">
+              Developed a web-based ESG and sustainability management platform for PT Pos Indonesia 
+              to centralize sustainability data collection, Greenhouse Gas (GHG) Emission Baseline 
+              reporting, Double Materiality Assessment, Stakeholder Priority Assessment, and executive 
+              ESG analytics. The platform supports Scope 1, Scope 2, and Scope 3 emission data 
+              management, emission factor configuration, evidence/document submission, stakeholder 
+              surveys, role-based access, and interactive dashboards to support sustainability and 
+              TJSL decision-making and reporting.
+            </p>
+            <div class="tech-badges mb-3">
+              <span>Laravel</span><span>MySQL</span><span>Eloquent</span><span>Full-Stack Development</span><span>REST API</span>
+              <span>Tailwindn</span><span>Alpine.js</span><span>ESG Management</span><span>Carbon Emission Calculation</span>
+              <span>Double Materiality Assessment</span><span>Stakeholder Assessment</span><span>Responsive UI</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <div class="col-lg-4 col-md-6 portfolio-item filter-web">
         <div class="card h-100 shadow-sm border-0 portfolio-card">
           <div class="portfolio-image">
             <div class="swiper portfolio-swiper" data-gallery="smartrider">
               <div class="swiper-wrapper">
-                <?php for($i=1; $i<=2; $i++): ?>
+                <?php for ($i = 1; $i <= 2; $i++): ?>
                 <div class="swiper-slide">
                   <a href="assets/img/portfolio/smartrider-<?php echo $i; ?>.png" class="glightbox" data-gallery="smartrider">
                     <img src="assets/img/portfolio/smartrider-<?php echo $i; ?>.png" alt="smartrider - <?php echo $i; ?>">
@@ -47,7 +85,7 @@
           <div class="portfolio-image">
             <div class="swiper portfolio-swiper" data-gallery="tkmh">
               <div class="swiper-wrapper">
-                <?php for($i=1; $i<=4; $i++): ?>
+                <?php for ($i = 1; $i <= 4; $i++): ?>
                 <div class="swiper-slide">
                   <a href="assets/img/portfolio/tk-marhamah-<?php echo $i; ?>.jpg" class="glightbox" data-gallery="tkmh">
                     <img src="assets/img/portfolio/tk-marhamah-<?php echo $i; ?>.jpg" alt="TK Marhamah Hasanah 2 - <?php echo $i; ?>">
@@ -83,7 +121,7 @@
           <div class="portfolio-image">
             <div class="swiper portfolio-swiper" data-gallery="loan">
               <div class="swiper-wrapper">
-                <?php for($i=1; $i<=2; $i++): ?>
+                <?php for ($i = 1; $i <= 2; $i++): ?>
                 <div class="swiper-slide"><img src="assets/img/portfolio/PKP-<?php echo $i; ?>.png"></div>
                 <?php endfor; ?>
               </div>
@@ -111,7 +149,7 @@
           <div class="portfolio-image">
             <div class="swiper portfolio-swiper" data-gallery="chatbot">
               <div class="swiper-wrapper">
-                <?php for($i=1; $i<=2; $i++): ?>
+                <?php for ($i = 1; $i <= 2; $i++): ?>
                 <div class="swiper-slide">
                   <a href="assets/img/portfolio/chatbot-<?php echo $i; ?>.png" class="glightbox" data-gallery="chatbot">
                     <img src="assets/img/portfolio/chatbot-<?php echo $i; ?>.png" alt="chatbot - <?php echo $i; ?>">
@@ -146,7 +184,7 @@
           <div class="portfolio-image">
             <div class="swiper portfolio-swiper" data-gallery="weather">
               <div class="swiper-wrapper">
-                <?php for($i=1; $i<=3; $i++): ?>
+                <?php for ($i = 1; $i <= 3; $i++): ?>
                 <div class="swiper-slide">
                   <a href="assets/img/portfolio/PeramalanCuaca-<?php echo $i; ?>.png" class="glightbox" data-gallery="weather">
                     <img src="assets/img/portfolio/PeramalanCuaca-<?php echo $i; ?>.png" alt="Weather - <?php echo $i; ?>">
@@ -181,7 +219,7 @@
           <div class="portfolio-image">
             <div class="swiper portfolio-swiper" data-gallery="temp">
               <div class="swiper-wrapper">
-                <?php for($i=1; $i<=3; $i++): ?>
+                <?php for ($i = 1; $i <= 3; $i++): ?>
                 <div class="swiper-slide">
                   <a href="assets/img/portfolio/PeramalanSuhu-<?php echo $i; ?>.png" class="glightbox" data-gallery="temp">
                     <img src="assets/img/portfolio/PeramalanSuhu-<?php echo $i; ?>.png" alt="Temp - <?php echo $i; ?>">
@@ -213,7 +251,7 @@
           <div class="portfolio-image">
             <div class="swiper portfolio-swiper" data-gallery="Kasir">
               <div class="swiper-wrapper">
-                <?php for($i=1; $i<=2; $i++): ?>
+                <?php for ($i = 1; $i <= 2; $i++): ?>
                 <div class="swiper-slide">
                   <a href="assets/img/portfolio/Kasir-<?php echo $i; ?>.png" class="glightbox" data-gallery="Kasir">
                     <img src="assets/img/portfolio/Kasir-<?php echo $i; ?>.png" alt="Kasir - <?php echo $i; ?>">
