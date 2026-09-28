@@ -11,6 +11,31 @@
         <div class="card exp-card h-100 shadow-sm border-0">
           <div class="card-body d-flex">
             <div class="exp-logo me-3">
+              <img src="assets/img/company/PosIND.png" alt="Pos Indonesia">
+            </div>
+            <div class="text-start">
+              <h5 class="mb-1">PT Pos Indonesia (Persero)</h5>
+              <div class="small text-muted mb-2">Fullstack Developer</div>
+              <p class="mb-0 small">
+                As a Fullstack Developer at PT Pos Indonesia, I am responsible for designing, 
+                developing, and maintaining web and mobile software solutions to support 
+                company operations and sustainability initiatives. In this role, I engineered 
+                the PUMK (Micro and Small Enterprise Funding Program) Web Application and 
+                developed its corresponding Android application (APK) to enhance system 
+                accessibility and user experience. Additionally, I developed a dedicated 
+                website for ESG (Environmental, Social, and Governance) needs, enabling 
+                transparent reporting and supporting PT Pos Indonesia’s commitment to 
+                corporate sustainability and governance standards.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6">
+        <div class="card exp-card h-100 shadow-sm border-0">
+          <div class="card-body d-flex">
+            <div class="exp-logo me-3">
               <img src="assets/img/company/limtech.png" alt="Limtech Smart Solutions">
             </div>
             <div class="text-start">
