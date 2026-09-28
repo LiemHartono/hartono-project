@@ -6,14 +6,16 @@
       <div class="col-lg-6 hero-content" data-aos="fade-right" data-aos-delay="100">
         <div class="content-wrapper">
           <h1 class="hero-title">Information Systems <span class="typed"
-              data-typed-items="Artificial Intelligence, Machine Learning, Data Science, Fullstack Developer, Business Analyst"></span>
+              data-typed-items="Project Manager, Fullstack Developer, Artificial Intelligence, Machine Learning"></span>
           </h1>
           <p class="lead">
-            I am a Fullstack Engineer and IT Product Specialist dedicated to bridging the gap between advanced technology and 
-            business strategy. With expertise in architecting end-to-end web applications using Python, Golang, and React, 
-            I specialize in integrating AI-driven features and machine learning models into production environments. I am 
-            passionate about leveraging data-driven insights to transform complex challenges into scalable, high-impact 
-            digital solutions.
+            I am a Fullstack Developer and Project Manager dedicated to bridging advanced 
+            technology with business strategy. With expertise in building end-to-end web and 
+            mobile applications, including the PUMK platform, its companion Android APK, and 
+            dedicated ESG websites, I combine technical development in Python, Golang, and 
+            React with end-to-end project leadership. I specialize in integrating AI-driven features
+            and machine learning models into production, leveraging data-driven insights to manage 
+            and transform complex organizational needs into scalable, high-impact digital solutions.
           </p>
 
           <div class="hero-actions" data-aos="fade-up" data-aos-delay="300">
@@ -38,7 +40,7 @@
             </div>
             <div class="floating-card card-2" data-aos="zoom-in" data-aos-delay="400">
               <i class="bi bi-bar-chart-line"></i>
-              <span>Business & Data Science</span>
+              <span>Project Manager</span>
             </div>
             <div class="floating-card card-3" data-aos="zoom-in" data-aos-delay="500">
               <i class="bi bi-cpu"></i>
